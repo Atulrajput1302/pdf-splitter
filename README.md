@@ -1,7 +1,9 @@
 # pdf-splitter
 Splits the pdf on the basis of provided index
 
-# Modules Used
+### Modules Used
+* Flask
+* Pdf2
 
 
 
