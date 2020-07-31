@@ -22,4 +22,4 @@ Splits the pdf on the basis of provided index
 
 # Preview
 
-![pdf](https://user-images.githubusercontent.com/63898454/89063586-0ddeb900-d386-11ea-97c8-3164fb1b5631.gif)
+![4a17rp](https://user-images.githubusercontent.com/63898454/89064464-ae81a880-d387-11ea-930d-5d5b2dc899e0.gif)
