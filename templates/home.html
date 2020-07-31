@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../static/machine.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+      <nav>
+
+          <a href="#">Home</a>
+
+          <a href="#">About this Website</a>
+
+          <a href="#">Contact Me!</a>
+
+          <div class="animation start-home"> </div>
+
+      </nav>
+      <br>
+      <br>
+      
+  <form class="box" action="/success" method="POST" enctype="multipart/form-data">
+
+        <h1  id="head_text">Pdf Splitter</h1>
+
+        <!-- name = first -->
+        <input type="text" name="first" placeholder="First Page Index" required = 'required'>
+
+          <!-- name = last -->
+        <input type="text" name="last" placeholder="Last Page Index" required = 'required'>
+
+        <!-- name = file -->
+        <input type="file" class="file"   name="file"  required = 'required' >
+
+        <input type="submit" id="submit_button" name="Submit" value="Split Pdf">
+
+  </form>
+
+
+
+
+
+  </body>
+</html>

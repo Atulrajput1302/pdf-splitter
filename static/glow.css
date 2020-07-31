@@ -1,0 +1,99 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: consolas;
+  box-sizing: border-box;
+}
+
+
+body
+{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #050801;
+}
+
+
+
+
+/* for the text! */
+
+
+#head_text
+{
+  /* font-family: 'Pangolin', cursive; */
+  position: relative;
+  display: inline-block;
+  padding: 50px 50px;
+  margin: 50px 0;
+  color: #FFFC00;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.80s;
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+
+#head_text:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+
+    filter: hue-rotate(280deg);
+
+}
+
+
+
+
+
+
+
+.download{
+  content: 'Select some files';
+    display: inline-block;
+    background: white;
+    border: 0px solid #999;
+    padding: 15px 18px;
+    outline:none;
+    /* white-space: nowrap; */
+    /* -webkit-user-select: none; */
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Pangolin;
+    font-size: 15pt;
+
+}
+.download::before {
+  border-color: black;
+}
+.download{
+  color: black;
+  font-family: 'Pangolin', cursive;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  background: -webkit-linear-gradient(top);
+}
+
+.download:hover{
+  /* background: #FFFC00;
+  color: black; */
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+  filter: hue-rotate(280deg);
+}
